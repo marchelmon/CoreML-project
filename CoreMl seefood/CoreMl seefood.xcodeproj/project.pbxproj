@@ -13,6 +13,7 @@
 		3C77DF4725BF0593000549EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C77DF4525BF0593000549EF /* Main.storyboard */; };
 		3C77DF4925BF0596000549EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C77DF4825BF0596000549EF /* Assets.xcassets */; };
 		3C77DF4C25BF0596000549EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C77DF4A25BF0596000549EF /* LaunchScreen.storyboard */; };
+		3C77DF5525BF0976000549EF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C77DF5425BF0976000549EF /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3C77DF4825BF0596000549EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C77DF4B25BF0596000549EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C77DF4D25BF0596000549EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C77DF5425BF0976000549EF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3C77DF4825BF0596000549EF /* Assets.xcassets */,
 				3C77DF4A25BF0596000549EF /* LaunchScreen.storyboard */,
 				3C77DF4D25BF0596000549EF /* Info.plist */,
+				3C77DF5425BF0976000549EF /* Inceptionv3.mlmodel */,
 			);
 			path = "CoreMl seefood";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C77DF4425BF0593000549EF /* ViewController.swift in Sources */,
+				3C77DF5525BF0976000549EF /* Inceptionv3.mlmodel in Sources */,
 				3C77DF4025BF0593000549EF /* AppDelegate.swift in Sources */,
 				3C77DF4225BF0593000549EF /* SceneDelegate.swift in Sources */,
 			);
